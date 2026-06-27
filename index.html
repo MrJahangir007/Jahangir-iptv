@@ -431,12 +431,52 @@
         //  FULL_CHANNELS (YOUR DEFAULT CHANNELS — KEEP YOUR LIST HERE)
         // ================================================================
         const FULL_CHANNELS = [
-            { name: "NTV", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8", group: "Bangladesh", flag: "📺" },
-            { name: "Jamuna TV", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8", group: "Bangladesh", flag: "🌊" },
-            { name: "Channel i", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8", group: "Bangladesh", flag: "📡" },
-            { name: "T Sports (Alt)", url: "https://trs1.aynaott.com/tsports/index.m3u8", group: "Sports", flag: "🇧🇩" },
-            { name: "T Sports (Live 1)", url: "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8", group: "Sports", flag: "🇧🇩" },
+            // ---- Bangladeshi from JSON ----
+            { name: "BIOSCOPE+ (FIFA)", url: "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8", group: "FIFA 2026", flag: "📡" },
+            { name: "Toffe world cup", url: "https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/459.m3u8", group: "FIFA 2026", flag: "📰" },
+            { name: "T SPORTS (HD)", url: "https://trs1.aynaott.com/tsports/index.m3u8", group: "Sports", flag: "🏆" },
+            { name: "BTV", url: "https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8", group: "Bangladesh", flag: "🌊" },
+            { name: "i- Screen", url: "https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8", group: "FIFA 2026", flag: "📡" },
+            { name: "JAMUNA TV", url: "https://cdn.jsdelivr.net/gh/nurmd2006/empty@main/stream/by/your-abbu/nurmd2006/offline-channels/jamunatv.m3u8", group: "Bangladesh", flag: "🌀" },
+            { name: "ATN Bangla", url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8", group: "Bangladesh", flag: "🎬" },
+
+            // ---- Sports from JSON ----
+            { name: "bEIN SPORTS", url: "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8", group: "Sports", flag: "🏆" },
+            { name: "SERVER 2 FIFA", url: "https://tahmidx.cinemoja2.workers.dev/", group: "FIFA 2026", flag: "🎥" },
+            { name: "korra city", url: "https://za.teworld.online/mooott1_720/index.m3u8", group: "Sports", flag: "⚽" },
+            { name: "CORRA CiTY 2", url: "https://za.teworld.online/mooott1_360/index.m3u8", group: "Sports", flag: "📡" },
+            { name: "cctv 5", url: "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8", group: "Sports", flag: "🇨🇳" },
+            { name: "FIFA", url: "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8", group: "FIFA 2026", flag: "🏆" },
+            { name: "Bein Sports 1 (Arabic)", url: "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8", group: "Sports", flag: "🇸🇦" },
+            { name: "Cola tv live", url: "https://live05.msdht.app/live/24561735.m3u8", group: "Sports", flag: "🎙️" },
+            { name: "BeIN Sports Direct", url: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8", group: "Sports", flag: "🏆" },
+            { name: "TYC Sports", url: "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/8631.m3u8", group: "Sports", flag: "🇦🇷" },
+            { name: "TNT Sports ARG", url: "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8", group: "Sports", flag: "🇦🇷" },
+            { name: "Manson Sports", url: "https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8", group: "Sports", flag: "🏟️" },
+            { name: "Caze TV", url: "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8", group: "Sports", flag: "🇧🇷" },
+            { name: "Dazn Direct", url: "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8", group: "Sports", flag: "🎯" },
+            { name: "TPV Sport", url: "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8", group: "Sports", flag: "🏅" },
+            { name: "D Sports", url: "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8", group: "Sports", flag: "🏆" },
+            { name: "D Sports 2", url: "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8", group: "Sports", flag: "🏆" },
+            { name: "Somoy TV FIFA", url: "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8", group: "FIFA 2026", flag: "🕛" },
+            { name: "FIFA Live", url: "https://pub-834eb2e520a04905b6d7b7bb7e84d277.r2.dev/en/index.m3u8", group: "FIFA 2026", flag: "⚽" },
+            { name: "TSN 4", url: "https://ataide0.nawapholengineering.co.th/tsn.m3u8", group: "Sports", flag: "📡" },
             { name: "Real Madrid TV", url: "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8", group: "FIFA 2026", flag: "⚽" },
+            { name: "LALIGA Inside", url: "https://d3bb58xoj568xi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/a5faafd1-5d98-4fe1-996c-c33206fd3324/3.m3u8", group: "FIFA 2026", flag: "🇪🇸" },
+            { name: "FIFA +", url: "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/bf2e2c08-6355-4c5a-8d38-e6f4470a558d/0.m3u8", group: "FIFA 2026", flag: "🏆" },
+            { name: "WILLOW SPORTS", url: "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8", group: "Sports", flag: "🏏" },
+            { name: "ELTA (FIFA)", url: "https://live.wxinxi.com/live/86597104_okehlpipbdoz2lujaxkrvv9eylmlbduv.m3u8", group: "FIFA 2026", flag: "⚽" },
+            { name: "Win Sports", url: "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8", group: "Sports", flag: "🏆" },
+            { name: "Telemendu", url: "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8", group: "Sports", flag: "📺" },
+            { name: "TUDN Sports", url: "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8", group: "Sports", flag: "⚽" },
+            { name: "PTV", url: "https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/459.m3u8", group: "Sports", flag: "📡" },
+            { name: "World Feed", url: "https://tahmidx.cinemoja2.workers.dev/", group: "Sports", flag: "🌍" },
+            { name: "SOCO Live", url: "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198", group: "Sports", flag: "🎬" },
+            { name: "FIFA 3", url: "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/e72e3606-f8f9-4f8e-96e4-355ec0170126/2.m3u8", group: "FIFA 2026", flag: "⚽" },
+            { name: "M6 FRANCE", url: "https://tfwz3gr3uomttgr31hp3tfa3dqmmeqfsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8?wsSession=3389cfe769edf9bcd6f19c64-178223213606042&wsIPSercert=474a89181ce264d3328bf31cb23b0443&wsBindIP=2&wsserid=1168201446950356247", group: "FIFA 2026", flag: "🇫🇷" },
+            { name: "TDM DSPORTO", url: "https://play1.gzxdby.com/live/026719075987_0442520055_1080p.m3u8", group: "Sports", flag: "🏆" },
+            { name: "FIFA WM", url: "https://s6.hopslan.com/ardX/tracks-v1a1/mono.m3u8", group: "FIFA 2026", flag: "⚽" },
+        ];
             // Add more of your default channels here
         ];
 
