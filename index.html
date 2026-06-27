@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* ===== All existing styles (keep same) ===== */
         * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter',sans-serif; }
         body { background:#0b0a08; color:#eae8e4; display:flex; justify-content:center; padding:0; min-height:100vh; }
         .app { max-width:1400px; width:100%; padding:10px; }
@@ -194,7 +193,7 @@
 </head>
 <body>
     <div class="app">
-        <!-- Header (same as before) -->
+        <!-- Header -->
         <header class="header">
             <div class="logo">
                 <div class="icon">📡</div>
@@ -256,7 +255,7 @@
                 <span class="shortcut-hint">⌨️ Space | ◀▶ | F | P | M</span>
             </div>
 
-            <!-- Toolbar with Xtream button -->
+            <!-- Toolbar -->
             <div class="toolbar">
                 <input type="text" id="playlist-url" value="https://raw.githubusercontent.com/MrJahangir007/Jahangir-iptv/main/playlist.m3u8" placeholder="M3U / M3U8 URL">
                 <button class="primary" id="load-btn">📥 Load</button>
@@ -264,7 +263,7 @@
                 <button class="secondary big-nav" id="prev-btn">⏪</button>
                 <button class="secondary big-nav" id="next-btn">⏩</button>
                 <button id="auto-btn" class="secondary" style="background:#f5c518;color:#000;">▶️ Auto</button>
-                <!-- NEW: Xtream Login Button -->
+                <!-- Xtream Login Button -->
                 <button class="secondary" onclick="openXtreamModal()" style="background:#2a2a45;color:#f5c518;border:1px solid #f5c518;">🔑 Xtream</button>
                 <button class="danger" id="clear-btn">🗑️</button>
                 <div class="smooth-toggle">
@@ -273,13 +272,13 @@
                 </div>
             </div>
 
-            <!-- Status Bar -->
+            <!-- Status -->
             <div class="status-bar">
                 <span class="now-playing" id="now-playing">⏳ Loading...</span>
                 <span id="channel-counter">0 channels</span>
             </div>
 
-            <!-- Filter Bar -->
+            <!-- Filter -->
             <div class="filter-bar">
                 <input type="text" id="filter-input" placeholder="🔍 Filter channels..." oninput="filterChannels()">
                 <span style="color:#555;font-size:8px;">🌐 Lang:</span>
@@ -295,7 +294,7 @@
                 <span class="filter-count" id="filter-count"></span>
             </div>
 
-            <!-- Content Area -->
+            <!-- Content -->
             <div class="content-area" id="content-area">
                 <div class="section active" id="section-fifa">
                     <div id="fifa-list" class="channel-grid"><div class="empty-state">🏆 No FIFA channels</div></div>
@@ -320,7 +319,7 @@
 
             <!-- Footer -->
             <div class="footer">
-                <div class="brand">📡 Jahangir <span>IPTV</span> <small>⭐ World Best v21.0</small></div>
+                <div class="brand">📡 Jahangir <span>IPTV</span> <small>⭐ World Best v21.1</small></div>
                 <div class="social">
                     <a href="https://www.facebook.com/iam.mrjahangir" target="_blank">📘 Facebook</a>
                     <a href="https://t.me/iammrjahangir" target="_blank">✈️ Telegram</a>
@@ -350,7 +349,7 @@
 
     <script>
         // ================================================================
-        //  JAHANGIR IPTV v21 — with Xtream Login + NS/OTT M3U support
+        //  JAHANGIR IPTV v21.1 — UPDATED FULL_CHANNELS with your new JSON
         // ================================================================
 
         // ----- DOM refs (same as before) -----
@@ -401,7 +400,7 @@
         let playlistsLoaded = ['local'];
         let currentPlayPromise = null;
 
-        // ----- Proxy helpers (same as before) -----
+        // ----- Proxy helpers -----
         const PROXIES = [
             'https://corsproxy.io/?',
             'https://api.allorigins.win/raw?url=',
@@ -428,7 +427,7 @@
         }
 
         // ================================================================
-        //  FULL_CHANNELS (YOUR DEFAULT CHANNELS — KEEP YOUR LIST HERE)
+        //  FULL_CHANNELS — UPDATED WITH YOUR NEW JSON DATA
         // ================================================================
         const FULL_CHANNELS = [
             // ---- Bangladeshi from JSON ----
@@ -476,8 +475,6 @@
             { name: "M6 FRANCE", url: "https://tfwz3gr3uomttgr31hp3tfa3dqmmeqfsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8?wsSession=3389cfe769edf9bcd6f19c64-178223213606042&wsIPSercert=474a89181ce264d3328bf31cb23b0443&wsBindIP=2&wsserid=1168201446950356247", group: "FIFA 2026", flag: "🇫🇷" },
             { name: "TDM DSPORTO", url: "https://play1.gzxdby.com/live/026719075987_0442520055_1080p.m3u8", group: "Sports", flag: "🏆" },
             { name: "FIFA WM", url: "https://s6.hopslan.com/ardX/tracks-v1a1/mono.m3u8", group: "FIFA 2026", flag: "⚽" },
-        ];
-            // Add more of your default channels here
         ];
 
         // ================================================================
@@ -638,7 +635,7 @@
         }
 
         // ================================================================
-        //  LOAD DEFAULT 15k PLAYLISTS (UPDATED WITH NS & OTT)
+        //  DEFAULT 15k PLAYLISTS (unchanged)
         // ================================================================
         const DEFAULT_PLAYLISTS = [
             'https://iptv-org.github.io/iptv/index.m3u',
@@ -702,7 +699,7 @@
         }
 
         // ================================================================
-        //  XTREAM LOGIN FUNCTIONS
+        //  XTREAM FUNCTIONS (unchanged)
         // ================================================================
         function openXtreamModal() {
             document.getElementById('xtream-modal').classList.add('open');
@@ -722,17 +719,14 @@
                 return;
             }
 
-            // Build M3U URL
             let base = server;
             if (!base.endsWith('/')) base += '/';
             const url = `${base}get.php?username=${encodeURIComponent(user)}&password=${encodeURIComponent(pass)}&type=m3u_plus&output=ts`;
 
             closeXtreamModal();
-            // Load the generated URL
             loadPlaylistFromUrl(url);
         }
 
-        // Also allow loading from the input field (existing)
         async function loadPlaylistFromUrl(url) {
             nowPlayingEl.innerHTML = '⏳ Loading playlist...';
             try {
@@ -1527,10 +1521,8 @@
                 loadDefaultPlaylists();
             }, 2000);
 
-            console.log('🏆 Jahangir IPTV v21 — Xtream Login + NS/OTT Support');
+            console.log('🏆 Jahangir IPTV v21.1 — Updated FULL_CHANNELS with your new JSON');
             console.log(`📺 ${channels.length} total channels loaded.`);
-            console.log('🔑 Xtream Login: Click the "Xtream" button in toolbar.');
-            console.log('📂 NS Player & OTT Navigator M3U links added to default playlists.');
         };
     </script>
 </body>
