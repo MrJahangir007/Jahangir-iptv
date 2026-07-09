@@ -713,8 +713,6 @@ https://download.quranicaudio.com/qdc/abdurrahmaan_as_sudais/murattal/96.mp3
 http://66.45.232.131:9994/;stream.mp3
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Arihant TV" group-title="Uncategorized",Arihant TV
 https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8
-#EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Makkah TV" group-title="Uncategorized",Makkah TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/makkahtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="AL Sunnah TV" group-title="Uncategorized",AL Sunnah TV
 http://m.live.net.sa:1935/live/sunnah/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="God TV" group-title="Uncategorized",God TV
@@ -1029,8 +1027,6 @@ https://amg00864-shemarooenterta-shemabollywood-ono-nlwbw.amagi.tv/playlist/amg0
 http://live.balajibroadband.com:3500/live/144.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Colors HD" group-title="Uncategorized",Colors HD
 http://103.157.248.140:8000/play/a007/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Colors HD" group-title="Uncategorized",Colors HD
-https://airtel.rkdyiptv.workers.dev/live/415.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="StarPlus HD" group-title="Uncategorized",StarPlus HD
 http://66.102.126.10:8000/play/a008/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="StarPlus HD" group-title="Uncategorized",StarPlus HD
@@ -1145,8 +1141,6 @@ http://103.157.248.140:8000/play/a00e/index.m3u8
 http://103.157.248.140:8000/play/a01c/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Star Gold HD" group-title="Uncategorized",Star Gold HD
 http://66.102.126.10:8000/play/a00f/index.m3u8
-#EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Star Gold HD" group-title="Uncategorized",Star Gold HD
-https://airtel.rkdyiptv.workers.dev/live/390.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Star Gold HD" group-title="Uncategorized",Star Gold HD
 http://103.157.248.140:8000/play/a00d/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="tvg-logo=" group-title="Uncategorized",tvg-logo=
@@ -1765,16 +1759,12 @@ https://airtel.rkdyiptv.workers.dev/live/2451.m3u8
 https://airtel.rkdyiptv.workers.dev/live/258.m3u8
 #EXTINF:-1 tvg-name="Anaheim Ducks" group-title="Uncategorized",Anaheim Ducks
 https://airtel.rkdyiptv.workers.dev/live/4989.m3u8
-#EXTINF:-1 tvg-name="ESPN2 (US)" group-title="Uncategorized",ESPN2 (US)
-https://airtel.rkdyiptv.workers.dev/live/255.m3u8
 #EXTINF:-1 tvg-name="TNT Sports 3" group-title="Uncategorized",TNT Sports 3
 https://airtel.rkdyiptv.workers.dev/live/314.m3u8
 #EXTINF:-1 tvg-name="NBA TV" group-title="Uncategorized",NBA TV
 https://airtel.rkdyiptv.workers.dev/live/270.m3u8
 #EXTINF:-1 tvg-name="9X JALWA" group-title="Uncategorized",9X JALWA
 https://airtel.rkdyiptv.workers.dev/live/505.m3u8
-#EXTINF:-1 tvg-name="TSN 5" group-title="Uncategorized",TSN 5
-https://airtel.rkdyiptv.workers.dev/live/262.m3u8
 #EXTINF:-1 tvg-name="FOX" group-title="Uncategorized",FOX
 https://airtel.rkdyiptv.workers.dev/live/82.m3u8
 #EXTINF:-1 tvg-name="BEIN Sport 4" group-title="Uncategorized",BEIN Sport 4
@@ -1785,8 +1775,6 @@ https://airtel.rkdyiptv.workers.dev/live/264.m3u8
 https://airtel.rkdyiptv.workers.dev/live/5081.m3u8
 #EXTINF:-1 tvg-name="NBC Sports California" group-title="Uncategorized",NBC Sports California
 https://airtel.rkdyiptv.workers.dev/live/2416.m3u8
-#EXTINF:-1 tvg-name="Sony SAB HD" group-title="Uncategorized",Sony SAB HD
-https://airtel.rkdyiptv.workers.dev/live/424.m3u8
 #EXTINF:-1 tvg-name="NBC Sports Chicago" group-title="Uncategorized",NBC Sports Chicago
 https://airtel.rkdyiptv.workers.dev/live/2417.m3u8
 #EXTINF:-1 tvg-name="Houston Rockets" group-title="Uncategorized",Houston Rockets
@@ -1795,8 +1783,6 @@ https://airtel.rkdyiptv.workers.dev/live/5063.m3u8
 https://airtel.rkdyiptv.workers.dev/live/5057.m3u8
 #EXTINF:-1 tvg-name="Orlando Magic" group-title="Uncategorized",Orlando Magic
 https://airtel.rkdyiptv.workers.dev/live/5074.m3u8
-#EXTINF:-1 tvg-name="Sony entertainment HD" group-title="Uncategorized",Sony entertainment HD
-https://airtel.rkdyiptv.workers.dev/live/404.m3u8
 #EXTINF:-1 tvg-name="Indiana Pacers" group-title="Uncategorized",Indiana Pacers
 https://airtel.rkdyiptv.workers.dev/live/5064.m3u8
 #EXTINF:-1 tvg-name="Brooklyn Nets" group-title="Uncategorized",Brooklyn Nets
@@ -1805,16 +1791,12 @@ https://airtel.rkdyiptv.workers.dev/live/5055.m3u8
 https://airtel.rkdyiptv.workers.dev/live/5062.m3u8
 #EXTINF:-1 tvg-name="YES Network" group-title="Uncategorized",YES Network
 https://airtel.rkdyiptv.workers.dev/live/1890.m3u8
-#EXTINF:-1 tvg-name="TNT" group-title="Uncategorized",TNT
-https://airtel.rkdyiptv.workers.dev/live/117.m3u8
 #EXTINF:-1 tvg-name="MSG Sportsnet" group-title="Uncategorized",MSG Sportsnet
 https://airtel.rkdyiptv.workers.dev/live/2690.m3u8
 #EXTINF:-1 tvg-name="Sky Sports Rugby" group-title="Uncategorized",Sky Sports Rugby
 https://airtel.rkdyiptv.workers.dev/live/2452.m3u8
 #EXTINF:-1 tvg-name="Los Angeles Dodgers" group-title="Uncategorized",Los Angeles Dodgers
 https://airtel.rkdyiptv.workers.dev/live/2355.m3u8
-#EXTINF:-1 tvg-name="BEIN Sport 5" group-title="Uncategorized",BEIN Sport 5
-https://airtel.rkdyiptv.workers.dev/live/2611.m3u8
 #EXTINF:-1 tvg-name="Star Movies HD (1080p)" group-title="Uncategorized",Star Movies HD (1080p)
 http://ptuf.ridsys.in/riptv/live/STAR_MOVIES_HD/index.m3u8
 #EXTINF:-1 tvg-name="Romedy Now (576p)" group-title="Uncategorized",Romedy Now (576p)
