@@ -5,6 +5,8 @@ https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.co
 https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/459.m3u8LWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD8E49TKJaioAwFJMUnGas8vyrFS1xrDoQoYIpVkaFGVB9nWJHjO_eeWQ5uRmmQuoCmVj_sgwUqfi-Z-ci98FUD
 #EXTINF:-1 tvg-name="T SPORTS" group-title="Bangladeshi",T SPORTS
 https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="T SPORTS" group-title="Bangladeshi",T SPORTS
+https://m3u8-proxy-v1.jahinalamshamim.workers.dev/proxy?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1 
 #EXTINF:-1 tvg-name="SOMOY TV FIFA" group-title="Bangladeshi",SOMOY TV FIFA
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1 tvg-name="SOCO WROLD CUP" group-title="Bangladeshi",SOCO WROLD CUP
