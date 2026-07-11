@@ -37,6 +37,8 @@ https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="ESPN S2" group-title="Uncategorized",ESPN S2
 http://186.33.40.97:8789/play/20
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/48/Sananda_TV_logo_%282011%29.png" tvg-name="SANANDA TV" group-title=Indianbangla",SANANDA TV
+https://live.sanandatelevision.in/sananda/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="Al Jajira" group-title="Uncategorized",Al Jajira
 https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://imgur.com/79g2kMA.png" tvg-name="03.BTV SANGSHAD" group-title="Uncategorized",03.BTV SANGSHAD
